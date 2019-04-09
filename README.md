@@ -1,6 +1,6 @@
 # Practise Makes Perfect!
 
-This is a repo filled with all of my practise codes; some are just rubbish, however, this presents what I have been learning and testing
+This is a personal repo filled with all of my practise codes from resources stated below. Some are just rubbish/basic codes however, this presents my journey through code.
 
 Table of Content:
  - C++ 
