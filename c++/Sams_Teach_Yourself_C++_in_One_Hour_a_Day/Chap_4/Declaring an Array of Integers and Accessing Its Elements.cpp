@@ -1,25 +1,31 @@
+@@ -1,30 +0,0 @@
 #include <iostream>
 
-int ArrayDec()
+using namespace std;
+
+//Global integers
+int x = 0, y = 0, total = 0;
+
+void MultiplyNumbers ()
 {
-    using namespace std;
-    int ArrayExample [5] = {1,5,9,12,13};
-    cout << "Array index 0 is " << ArrayExample[0] << endl;
-    cout << "Array index 1 is " << ArrayExample[1] << endl;
-    cout << "Array index 2 is " << ArrayExample[2] << endl;
-    cout << "Array index 3 is " << ArrayExample[3] << endl;
-    cout << "Array index 4 is " << ArrayExample[4] << endl;
+    //Ask user for number 1 =x
+    cout << "Enter your First Number: " << endl;
+    cin >> x;
+
+    // Ask usr for num 2 = y
+    cout << "Enter your Second Number: " << endl;
+    cin >> y;
+
+    //define total, do calculation then print results
+    total = x * y;
+    cout << "Solution = " << total << endl;
 }
-
-
 int main()
 {
-    using namespace std;
+    cout << "This short program will help you multiply two numbers" << endl;
 
-    cout << "This function presents the declared array of Integers and Accessing Its Elements" << endl;
-
-    //Functions are Invoked here
-    ArrayDec();
+    //calling the function
+    MultiplyNumbers();
 
     return 0;
 }
