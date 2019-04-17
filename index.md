@@ -1,10 +1,28 @@
-# Practise Maks Perfect
+<p align="center">
+  <img src="https://github.com/mccrudd3n/OpenSource-Practise/blob/master/img/black-hole2.jpg" width="1300" height="500">
+</p>
 
-This is a personal repo filled with all of my practise codes from resources stated below. 
+# Practise Makes Perfect
 
-My Journey through Code:
+This is a personal repo filled with all of my practise codes from resources stated below.
 
-    C++
-        Book used: Sams Teach Yourself C++ in One Hour a Day, 7th Edition
-    Python
+## My Journey through Code:
+
+    -> C++
+        |-> Sams Teach Yourself C++ in One Hour a Day, 7th Edition
+    -> Python
         Course Name 
+        
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://github.com/mccrudd3n/OpenSource-Practise/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Authors
+* McCrudd3n
+
+## Acknowledgments
+
+* Siddhartha Rao - Sams Teach Yourself C++ in One Hour a Day
+
+
