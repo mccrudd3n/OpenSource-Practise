@@ -1,25 +1,45 @@
 #include <iostream>
 #include <string>
 
-int ConditionalExe()
+int NestedIF()
 {
     using namespace std;
-    //Array with 20 elements and NULL inputs
-    char Buffer [20] = {'\0'};
-    cout << "Enter a line of text " << endl;
 
-    string LineEntered;
-    getline (cin, LineEntered);
+    int Num1 =0, Num2 =0; //Declare
 
-    if (LineEntered.length() < 20)
+    //User Input Section
+    cout << "Enter Number 1: " << endl;
+    cout << " >> "; //Input Pointer
+    cin >> Num1;
+    cout << "Enter Number 2: " << endl;
+    cout << " >> "; //Input Pointer
+    cin >> Num2;
+
+    int Result =0; //Declare Result
+    char UserSelect = '\0';
+
+    cout << "Input \"D\" to Devide and Input \"M\" to Multiply. ";
+    cout << " >> ";
+    cin >> UserSelect;
+
+    if (UserSelect == 'D')
+    {
+      cout << "You want to Divide!" << endl;
+      if (Num2 != 0)
       {
-        strcpy(Buffer, LineEntered.c_str());
-        cout << "Buffer contains: " << Buffer << endl;
-       }
+      cout << "No divide-by-zero, proceeding to calculate" << endl;
+      cout << Num1 << " / " << Num2 << " = " << Num1/Num2 << endl;
+      }
+      else
+      cout << "Division by zero is not allowed" << endl;
+    }
+    else if (UserSelect == 'M')
+    {
+      cout << "You want multiplication!" << endl;
+      cout << Num1 << " X " << Num2 << " = " << Num1 * Num2 << endl;
+    }
 
 }
-
-
 int main()
 {
     using namespace std;
@@ -31,7 +51,7 @@ int main()
     cout << endl; // Extra space so that its easy readable
 
     //Functions are Invoked here
-    ConditionalExe();
+    NestedIF();
 
     return 0;
 }
