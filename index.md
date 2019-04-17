@@ -1,7 +1,4 @@
-<p align="center">
-  <img src="https://github.com/mccrudd3n/OpenSource-Practise/blob/master/img/black-hole2.jpg" width="1300" height="500">
-</p>
-
+![GitHub Logo](https://github.com/mccrudd3n/OpenSource-Practise/blob/master/img/black-hole2.jpg)
 # Practise Makes Perfect
 
 This is a personal repo filled with all of my practise codes from resources stated below.
