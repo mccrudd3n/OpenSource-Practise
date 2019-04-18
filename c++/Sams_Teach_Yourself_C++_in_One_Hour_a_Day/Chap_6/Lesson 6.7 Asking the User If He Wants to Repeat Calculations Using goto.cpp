@@ -1,23 +1,34 @@
 #include <iostream>
 #include <string>
 
-int ConditionalOp()
+int Function()
 {
     using namespace std;
 
+    JumpToPoint:
+
     //User Input
     int Num1 =0, Num2 =0;
-    cout << "Enter Number 1: " << endl;
-    cout << " >> ";
+
+    cout << "Enter 2 Numbers" << endl;
+    cout << "Number 1 >> ";
     cin >> Num1;
-    cout << "Enter Number 2: " << endl;
-    cout << " >> ";
+    cout << endl;
+    cout << "Number 2 >> ";
     cin >> Num2;
+    cout << endl; //Used for extra space
 
-    int Max = (Num1 < Num2) ? Num1 : Num2;
-    cout << "The greater of " << Num1 << " and " << Num2 << " is: " << Max << endl;
+    //User Selects what Calculation he wants
 
-}
+    cout << Num1 << " x " << Num2 << " = " << Num1 * Num2 << endl;
+    cout << Num1 << " + " << Num2 << " = " << Num1 + Num2 << endl;
+    cout << "Do you wish to perform another operation (y/n)?" << endl;
+    char Repeat = 'y';
+    cin >> Repeat;
+    if (Repeat == 'y')
+      goto JumpToPoint;
+    cout << "Goodbye!" << endl;
+  }
 int main()
 {
     using namespace std;
@@ -29,7 +40,7 @@ int main()
     cout << endl; // Extra space so that its easy readable
 
     //Functions are Invoked here
-    ConditionalOp();
+    Function();
 
     return 0;
 }
