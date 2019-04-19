@@ -23,3 +23,21 @@ Please read [CONTRIBUTING.md](https://github.com/mccrudd3n/OpenSource-Practise/b
 * Siddhartha Rao - Sams Teach Yourself C++ in One Hour a Day
 
 
+{% include 01-name.md %}
+<br>
+
+{% include 02-image.md %}
+
+<br>
+
+{% include 03-links.md %}
+
+<br>
+
+{% include 04-lists.md %}
+
+<br>
+
+{% include 05-emphasis.md %}
+
+<br>
