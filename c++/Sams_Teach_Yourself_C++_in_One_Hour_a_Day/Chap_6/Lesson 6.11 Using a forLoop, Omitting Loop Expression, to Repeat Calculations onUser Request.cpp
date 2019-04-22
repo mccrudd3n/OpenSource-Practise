@@ -17,6 +17,7 @@ int Function()
     cout << Num1 << " x " << Num2 << " = " << Num1 * Num2 << endl;
     cout << Num1 << " + " << Num2 << " = " << Num1 + Num2 << endl;
         cout << "Press x to exit or any other key to recalculate" << endl;
+    char UserSelection = '\0';
     cin >> UserSelection;
     }
     cout << "End of Program." << endl;
