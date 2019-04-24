@@ -1,10 +1,8 @@
 # My Journey through Code:
 
 ## C++
-  * [Sams Teach Yourself C++ in One Hour a Day, 7th Edition](https://github.com/mccrudd3n/OpenSource-Practise/tree/master/c%2B%2B/Sams_Teach_Yourself_C%2B%2B_in_One_Hour_a_Day) 
-  
 <details>
-<summary> Work Output </summary>
+<summary> <a href="https://github.com/mccrudd3n/OpenSource-Practise/tree/master/c%2B%2B/Sams_Teach_Yourself_C%2B%2B_in_One_Hour_a_Day">Sams Teach Yourself C++ in One Hour a Day, 7th Edition</a> </summary>
 <ul>
 <li> <a href="https://github.com/mccrudd3n/OpenSource-Practise/tree/master/c%2B%2B/Sams_Teach_Yourself_C%2B%2B_in_One_Hour_a_Day/Chap_2">Chapter 2</a> </li>
 <li> <a href="https://github.com/mccrudd3n/OpenSource-Practise/tree/master/c%2B%2B/Sams_Teach_Yourself_C%2B%2B_in_One_Hour_a_Day/Chap_3">Chapter 3</a> </li>
@@ -15,10 +13,10 @@
 </ul>
 </details>
  
-## GitHub Online Lessons
+## GitHub
 
 <details>
-<summary> GitHub Repo Links </summary>
+<summary> GitHub Online Lessons </summary>
 <ul>
 <li> <a href="https://github.com/mccrudd3n/github-slideshow">Github-Slideshow</a> </li>
 <li> <a href="https://github.com/mccrudd3n/github-pages-with-jekyll">Github-Pages</a> </li>
