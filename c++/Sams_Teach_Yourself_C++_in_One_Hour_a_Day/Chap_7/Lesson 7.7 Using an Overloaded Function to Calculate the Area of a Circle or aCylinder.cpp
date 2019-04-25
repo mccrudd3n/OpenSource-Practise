@@ -8,27 +8,44 @@ const double Pi = 3.14159;
 double Area (double Radius);
 double Area (double Radius, double Height);
 
-void QueryAndCalculate()
+int main()
     {
     cout << endl; // Extra space
     cout << "-------------------------------------------------------------" << endl;
-    cout << "Lesson 7.7 Using an Overloaded Function to Calculate the Area of a Circle or a Cylinder" << endl;
+    cout << "Lesson 7.8 Function That Takes an Array as a Parameter.7 Using an Overloaded Function to Calculate the Area of a Circle or a Cylinder" << endl;
     cout << "-------------------------------------------------------------" << endl;
     cout << endl; // Extra space
 
-    cout << "Enter z for Cylincer, c for cicle: " << endl;
+    cout << "Enter z for Cylinder, c for cicle: " << endl;
     cout << " >> ";
-    char Choice = '\0';
+    char Choice = 'z';
     cin >> Choice;
 
+    cout << "Enter Radius: " << endl;
+    cout << " >> ";
+    double Radius = 0;
+    cin >> Radius;
 
-
-
-
+    if (Choice == 'z')
+    {
+      cout << "Enter Height of the Cylinder:" << endl;
+      cout << " >> ";
+      double Height =0;
+      cin >> Height;
+      cout << "Area of Cylinder is: " << Area(Radius,Height) << endl;
     }
+    else
+    cout << "Area of Cicle is: " << Area(Radius) << endl;
 
-int main()
+    return 0;
+  }
+
+double Area (double Radius)
 {
-  QueryAndCalculate ()
-  return 0;
+  return Pi * Radius * Radius;
+}
+
+double Area (double Radius, double Height)
+{
+  return 2 * Area (Radius) + 2 * Pi * Radius * Height;
 }
