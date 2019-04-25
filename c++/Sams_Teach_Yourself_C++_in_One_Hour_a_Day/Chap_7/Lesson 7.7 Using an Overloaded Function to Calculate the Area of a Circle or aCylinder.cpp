@@ -12,7 +12,7 @@ int main()
     {
     cout << endl; // Extra space
     cout << "-------------------------------------------------------------" << endl;
-    cout << "Lesson 7.8 Function That Takes an Array as a Parameter.7 Using an Overloaded Function to Calculate the Area of a Circle or a Cylinder" << endl;
+    cout << "Lesson 7.7 Using an Overloaded Function to Calculate the Area of a Circle or a Cylinder" << endl;
     cout << "-------------------------------------------------------------" << endl;
     cout << endl; // Extra space
 
