@@ -15,7 +15,7 @@ contract PiggyBank {
 
 // Check if ether has been deposited. When it is deposited, the number of deposits go up and the total count is returned
 
-    funcition deposit() payable returns (uint)
+    function deposit() payable returns (uint)
     {
         if(msg.value > 0 )
             deposit = deposit +1;
