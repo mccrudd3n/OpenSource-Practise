@@ -2,30 +2,30 @@
 
 using namespace std;
 
-const double Pi = 3.1416;
-
-
-void Area (double Radius, double& Result)
+//Inline defined
+inline long DoubleNum (int InputNum)
 {
-  Result = Pi * Radius * Radius;
+  return InputNum * 2;
 }
 
 int main()
   {
     cout << endl; // Extra space
     cout << "-------------------------------------------------------------" << endl;
-    cout << "Lesson 7.9 Fetching the Area of a Circle as a Reference Parameter and Not as aReturn Value" << endl;
+    cout << "Lesson 7.10 Using an Inline Function That Doubles an Integer" << endl;
     cout << "-------------------------------------------------------------" << endl;
 
-    cout << "Enter Radius of the Circle: "<< endl;
+    cout << "Enter an Integer: " << endl;
     cout << " >> ";
-    double Radius = 0;
-    cin >> Radius;
+    int InputNum =0;
+    cin >> InputNum;
 
-    double AreaFetch =0;
-    Area (Radius, AreaFetch);
+    //call inline Function
+    cout << "Double is " << DoubleNum(InputNum) << endl;
 
-    cout << "Area is : " << AreaFetch << endl;
     return 0;
+
+
+
 
   }
