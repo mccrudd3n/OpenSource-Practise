@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 class Fish
 {
   protected:
@@ -13,29 +14,32 @@ class Fish
         cout << "Swims in sea" << endl;
       }
 };
-  class Tuna: public Fish
-  {
-    public:
-      Tuna()
-      {
-        FreshWaterFish = false; // set base class protected member
-      }
-  };
-  class Carp: public Fish
-  {
-    public:
-      Carp()
-      {
-        FreshWaterFish = false;
-      }
-  };
-  int main()
-  {
-    Carp myLunch;
-    Tuna myDinner;
-    cout << "Getting my food to swim" << endl;
 
-  cout << "Lunch: ";   myLunch.Swim();
+class Tuna: public Fish
+{
+  public:
+    Tuna()
+    {
+      FreshWaterFish = false; // set base class protected member
+    }
+};
+
+class Carp: public Fish
+{
+  public:
+    Carp()
+    {
+      FreshWaterFish = false;
+    }
+};
+
+int main()
+{
+  Carp myLunch;
+  Tuna myDinner;
+  cout << "Getting my food to swim" << endl;
+  cout << "Lunch: ";
+  myLunch.Swim();
   cout << "Dinner: ";
   myDinner.Swim();
   // uncomment line below to see that protected members
@@ -43,4 +47,4 @@ class Fish
   // myLunch.FreshWaterFish = false;
 
   return 0;
-  }
+}
