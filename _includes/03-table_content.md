@@ -1,19 +1,10 @@
 # My Journey through Code:
 
-## C++
-<details>
-<summary> <a href="https://github.com/mccrudd3n/OpenSource-Practise/tree/master/c%2B%2B/Sams_Teach_Yourself_C%2B%2B_in_One_Hour_a_Day">Sams Teach Yourself C++ in One Hour a Day, 7th Edition</a> </summary>
-<ul>
-<li> <a href="https://github.com/mccrudd3n/OpenSource-Practise/tree/master/c%2B%2B/Sams_Teach_Yourself_C%2B%2B_in_One_Hour_a_Day/Chap_2">Chapter 2</a> </li>
-<li> <a href="https://github.com/mccrudd3n/OpenSource-Practise/tree/master/c%2B%2B/Sams_Teach_Yourself_C%2B%2B_in_One_Hour_a_Day/Chap_3">Chapter 3</a> </li>
-<li> <a href="https://github.com/mccrudd3n/OpenSource-Practise/tree/master/c%2B%2B/Sams_Teach_Yourself_C%2B%2B_in_One_Hour_a_Day/Chap_4">Chapter 4</a> </li>
-<li> <a href="https://github.com/mccrudd3n/OpenSource-Practise/tree/master/c%2B%2B/Sams_Teach_Yourself_C%2B%2B_in_One_Hour_a_Day/Chap_5">Chapter 5</a> </li>
-<li> <a href="https://github.com/mccrudd3n/OpenSource-Practise/tree/master/c%2B%2B/Sams_Teach_Yourself_C%2B%2B_in_One_Hour_a_Day/Chap_6">Chapter 6</a> </li>
-<li> <a href="https://github.com/mccrudd3n/OpenSource-Practise/tree/master/c%2B%2B/Sams_Teach_Yourself_C%2B%2B_in_One_Hour_a_Day/Chap_7">Chapter 7</a> </li>
- <li> <a href="https://github.com/mccrudd3n/OpenSource-Practise/tree/master/c%2B%2B/Sams_Teach_Yourself_C%2B%2B_in_One_Hour_a_Day/Chap_8">Chapter 8</a> </li>
- <li> <a href="https://github.com/mccrudd3n/OpenSource-Practise/tree/master/c%2B%2B/Sams_Teach_Yourself_C%2B%2B_in_One_Hour_a_Day/Chap_9">Chapter 9</a> </li>
-</ul>
-</details>
+### Courses
+  * [Sams Teach Yourself C++ in One Hour a Day, 7th Edition](https://github.com/mccrudd3n/OpenSource-Practise/tree/master/Courses/Sams_Teach_Yourself_C%2B%2B_in_One_Hour_a_Day)
+  * [Low Level Programming - Igor Zhirkov](https://github.com/mccrudd3n/OpenSource-Practise/tree/master/Courses/Low%20Level%20Programming%20-%20Igor%20Zhirkov/Chap_2)
+  * [UBCx HC1x How to Code: Simple DataUBs Course](https://github.com/mccrudd3n/OpenSource-Practise/tree/master/Courses/UBCx%20HC1x%20How%20to%20Code:%20Simple%20DataUBs%20Course/1a:%20Beginning%20Student%20Language/Expressions)  
+
 
 ## GitHub
 
