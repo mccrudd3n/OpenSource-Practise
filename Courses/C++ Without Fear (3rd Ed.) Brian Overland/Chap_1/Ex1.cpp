@@ -1,4 +1,4 @@
-// Ex 1~
+// Ex 1~ + General IDE testing
 
 #include <iostream>
 using namespace std;
