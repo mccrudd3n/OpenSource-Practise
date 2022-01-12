@@ -4,14 +4,20 @@ using namespace std;
 
 int main()
 {
-    int n = 0;
+    int i = 0;
+    int n1 = 0;
+    int n2 = 0;
 
-    cout << "Enter a number and press ENTER: " << endl;
-    cin >> n;
-    if(n % 7 ==0) {
-        cout << "The number is divisible by 7." << endl;
-    } else {
-        cout << "The number is not divisble by 7." <<endl;
+    cout << "Enter first number and press ENTER: " << endl;
+    cin >> n1;
+    cout << "Enter second number and press ENTER: " << endl;
+    cin >> n2;
+
+    i = n1;
+    
+    while (i <= n2){
+        cout << i << " ";
+        i=i+1;
     }
     return 0;
 }
