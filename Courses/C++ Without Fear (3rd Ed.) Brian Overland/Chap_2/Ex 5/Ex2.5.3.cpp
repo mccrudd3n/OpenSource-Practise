@@ -1,4 +1,8 @@
 
+
+//Unfinished Code - Need to revise this program so that it keeps
+//playing the game until the user wants to quit
+
 #include <iostream>
 
 using namespace std;
@@ -7,12 +11,12 @@ int main()
 {
     int total =0, n=0;
     int start, range, x;
-
+    int play_again =true;
 
     cout << "Welcome to NIM. Pick a starting total: " << endl;
     cin >> start; 
     // Loop to check that the starting number
-    while (true){
+    while (play_again==true){
         if (start < 0){
             cout << "Start number must be greater than 1" << endl;
             cout << "Re-enter starting number: "<< endl;
@@ -27,7 +31,7 @@ int main()
     cout << "Pick a range number (1 to 7) " << endl;
     cin >> x; 
     //Loop to select the game range
-    while (true)
+    while (play_again==true)
     {
         if (x<1 || x>7)
         {
@@ -42,7 +46,7 @@ int main()
         }
     }
     //Robot Strategy
-    while (true)
+    while (play_again==true)
     {        
  
         if ((total % 3) == 2)
@@ -60,7 +64,17 @@ int main()
         if (total <= 0)
         {
             cout << "I win!" << endl;
+            cout << "Do you want to continue? " << endl;
+            if(play_again == true)
+            {
+                continue;
+            }
+            else
+            {
+            cout << "Bye" << endl;
+            play_again=true;
             break;
+            }
         }
     //User input
     cout << "Enter num to subtract (1 or " << range << "): " << endl;
