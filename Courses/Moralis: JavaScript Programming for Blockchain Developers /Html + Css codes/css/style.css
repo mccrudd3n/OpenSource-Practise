@@ -1,0 +1,47 @@
+#github-link{
+    text-shadow: 2px 2px 7px darkgreen;
+}
+
+.dashed-boarder{
+    border: 2px dashed darkgreen;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.d-block {
+    display: block;
+}
+.d.inline {
+    display: inline;
+}
+
+.column-container {
+    display: flex;
+}
+
+.column {
+    width: 40%;
+}
+
+
+.d-inline-block{
+    display: inline-block;
+}
+
+button {
+    border: none;
+    box-shadow: 3px 3px 7px rgb(rgb(134, 56, 56), green, blue);
+    cursor: pointer;
+}
+
+from {
+    padding: 15px;
+    border: 2px solid black;
+    margin: 30px;
+}
+
+[type=text], [type=number], [type=submit] {
+    padding: 8px;
+}
