@@ -1,0 +1,5 @@
+/*
+Write a program that lets the user enter any number n and then
+finds the first prime number larger than n
+
+*/
