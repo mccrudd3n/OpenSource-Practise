@@ -1,24 +1,28 @@
 using System;
 
-namespace Worksheet1
+namespace Hello_World
 {
     class Program
     {
+
+        static double AdditionMethod(double input_1, double input_2)
+        {
+
+            double total = input_1 + input_2;
+            return total;
+        }
+
+
         static void Main(string[] args)
         {
-            //Declaring Vars
-            //float num_One = 0.0f;
-            //float num_Two = 0.0f;
-
             Console.WriteLine("Enter number 1: ");
-            float num_One = Single.Parse(Console.ReadLine());
+            double input_1 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Enter Number 2: ");
-            float num_Two = Single.Parse(Console.ReadLine());
+            double input_2 = Convert.ToDouble(Console.ReadLine());
 
-            float sum = num_One + num_Two;
-            Console.WriteLine(num_One + " + " + num_Two + " = " + sum);
-
+            Console.WriteLine($"{input_1} + {input_2} = {AdditionMethod(input_1, input_2)}");
         }
+       
     }
 }

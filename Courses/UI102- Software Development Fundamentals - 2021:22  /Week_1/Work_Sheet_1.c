@@ -1,22 +1,26 @@
-/*
-Write a simple program which will ask the user to input their name and then display the 
-following: 
-->> Welcome firstname 
-*/
-
 using System;
 
 namespace Hello_World
 {
     class Program
     {
+        static void WelcomeMessage(string name)
+        {
+            Console.WriteLine($"Welcome," + name);  
+        }
+
+
         static void Main(string[] args)
         {
             Console.WriteLine("Enter your Name");
-            string firstname;
-            firstname = Console.ReadLine();
-            Console.WriteLine("Welcome " + firstname + "!");
+
+            string name;
+            name = Convert.ToString(Console.ReadLine());
+            WelcomeMessage(name);
+
 
         }
+
+       
     }
 }

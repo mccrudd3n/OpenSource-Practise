@@ -1,24 +1,27 @@
 using System;
 
-namespace Worksheet1
+namespace Hello_World
 {
     class Program
     {
+
+        static void BoolCheck(double input_1, double input_2)
+        {
+            bool sum = input_1 == input_2;
+            Console.WriteLine("Is " + input_1 + " and " + input_2 + " == " + sum);
+        }
+        
         static void Main(string[] args)
         {
-            //Declaring Vars
-            //float num_One = 0.0f;
-            //float num_Two = 0.0f;
-
             Console.WriteLine("Enter number 1: ");
-            float num_One = Single.Parse(Console.ReadLine());
+            double input_1 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Enter Number 2: ");
-            float num_Two = Single.Parse(Console.ReadLine());
+            double input_2 = Convert.ToDouble(Console.ReadLine());
 
-            bool sum = num_One == num_Two;
-            Console.WriteLine("Is " + num_One + " and " + num_Two + " == " + sum);
-
+            BoolCheck(input_1, input_2);
+            
         }
+       
     }
 }
