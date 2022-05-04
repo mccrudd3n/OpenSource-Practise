@@ -1,22 +1,16 @@
 ﻿<Properties StartupConfiguration="{63B9A5CD-BC7A-432B-8BD0-DF80D661A6A4}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Gameplay/MerchantBehaviour.cs">
+    <Files>
+      <File FileName="Gameplay/Program.cs" Line="8" Column="2" />
+      <File FileName="Gameplay/GamePlayBehaviour.cs" Line="43" Column="36" />
+      <File FileName="Gameplay/MerchantBehaviour.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Gameplay" expanded="True">
             <Node name="Gameplay" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="ClassPad">
-        <State name="__root__">
-          <Node name="Gameplay" expanded="True">
-            <Node name="Gameplay" expanded="True">
-              <Node name="Gameplay" expanded="True">
-                <Node name="Gameplay.Program" expanded="True" selected="True" />
-              </Node>
+              <Node name="MerchantBehaviour.cs" selected="True" />
             </Node>
           </Node>
         </State>

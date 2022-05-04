@@ -1,39 +1,84 @@
-﻿using System;
+﻿using static Gameplay.PlayerBehaviour;
+using System;
 
 namespace Gameplay
 {
-    public class GamePlayBehaviour
+    public class GameplayBehaviour
     {
-        public static int ExploreRoom()
+
+
+        public static void ExploreRoom()
         {
-            int sum = 5;
-            return sum;
+            Console.WriteLine("Exploring room....");
+            MonsterBehaviour.MonsterFightOrFlight();
         }
 
-        public static int ShowStatus()
+        public static void EnterSafeRoom()
         {
-            int sum = 5;
-            return sum;
+            Console.WriteLine("Entering Saferoom....");
+            PlayerBehaviour.PlayerStatus();
+        }
+       
+
+        public static void UseMerchant()
+        {
+            Console.WriteLine("Visiting Merchant....");
+            MerchantBehaviour.MerchantChat();
         }
 
-        public static int UsePotion()
+        public static void Loot()
         {
-            int sum = 5;
-            return sum;
+            Console.WriteLine("Looting Monster or Merchant");
         }
 
-        public static int UseMerchant()
+        public static void Operation_section()
         {
-            int sum = 5;
-            return sum;
-        }
+            Console.WriteLine("Press Enter to start");
 
-        public static int Loot()
-        {
-            //Only possible when monster is killed
-            int sum = 5;
-            return sum;
-        }
+            string input_operator = Console.ReadLine();
 
+            while (input_operator != "1" || input_operator != "2" || input_operator != "3" ||
+                input_operator != "4" || input_operator != "5" || input_operator != "Q" || input_operator != "q")
+            {
+                Console.WriteLine("What would you like to do? ");
+                Console.WriteLine("Explore[1] || Visit Merchant[2] || Visit Saferoom[3] || Use Potion[4] || Exit[Q]");
+
+                string input_operator2 = Console.ReadLine();
+                input_operator = input_operator2;
+
+                if (input_operator == "1")
+                {
+                    ExploreRoom();
+                }
+
+                else if (input_operator == "2")
+                {
+                    UseMerchant();
+                }
+
+                else if (input_operator == "3")
+                {
+                    EnterSafeRoom();
+                }
+
+                else if (input_operator == "4")
+                {
+                    //UsePotion();
+                }
+
+                else if (input_operator == "5")
+                {
+                    Loot();
+                }
+                else if (input_operator == "Q")
+                {
+                    break;
+                }
+            }
+
+            string[] weather = { "sunny", "cold", "dry", "overcast" };
+            
+
+        }
     }
 }
