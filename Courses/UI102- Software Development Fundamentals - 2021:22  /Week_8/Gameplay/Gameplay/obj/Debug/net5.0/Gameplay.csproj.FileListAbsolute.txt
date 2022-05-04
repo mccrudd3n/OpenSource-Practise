@@ -1,0 +1,15 @@
+/Users/losthost/Shared Folder/SourceCode/Uni/Gameplay/Gameplay/Gameplay/bin/Debug/net5.0/Gameplay.deps.json
+/Users/losthost/Shared Folder/SourceCode/Uni/Gameplay/Gameplay/Gameplay/bin/Debug/net5.0/Gameplay.runtimeconfig.json
+/Users/losthost/Shared Folder/SourceCode/Uni/Gameplay/Gameplay/Gameplay/bin/Debug/net5.0/Gameplay.runtimeconfig.dev.json
+/Users/losthost/Shared Folder/SourceCode/Uni/Gameplay/Gameplay/Gameplay/bin/Debug/net5.0/Gameplay.dll
+/Users/losthost/Shared Folder/SourceCode/Uni/Gameplay/Gameplay/Gameplay/bin/Debug/net5.0/ref/Gameplay.dll
+/Users/losthost/Shared Folder/SourceCode/Uni/Gameplay/Gameplay/Gameplay/bin/Debug/net5.0/Gameplay.pdb
+/Users/losthost/Shared Folder/SourceCode/Uni/Gameplay/Gameplay/Gameplay/obj/Debug/net5.0/Gameplay.csproj.AssemblyReference.cache
+/Users/losthost/Shared Folder/SourceCode/Uni/Gameplay/Gameplay/Gameplay/obj/Debug/net5.0/Gameplay.GeneratedMSBuildEditorConfig.editorconfig
+/Users/losthost/Shared Folder/SourceCode/Uni/Gameplay/Gameplay/Gameplay/obj/Debug/net5.0/Gameplay.AssemblyInfoInputs.cache
+/Users/losthost/Shared Folder/SourceCode/Uni/Gameplay/Gameplay/Gameplay/obj/Debug/net5.0/Gameplay.AssemblyInfo.cs
+/Users/losthost/Shared Folder/SourceCode/Uni/Gameplay/Gameplay/Gameplay/obj/Debug/net5.0/Gameplay.csproj.CoreCompileInputs.cache
+/Users/losthost/Shared Folder/SourceCode/Uni/Gameplay/Gameplay/Gameplay/obj/Debug/net5.0/Gameplay.dll
+/Users/losthost/Shared Folder/SourceCode/Uni/Gameplay/Gameplay/Gameplay/obj/Debug/net5.0/ref/Gameplay.dll
+/Users/losthost/Shared Folder/SourceCode/Uni/Gameplay/Gameplay/Gameplay/obj/Debug/net5.0/Gameplay.pdb
+/Users/losthost/Shared Folder/SourceCode/Uni/Gameplay/Gameplay/Gameplay/obj/Debug/net5.0/Gameplay.genruntimeconfig.cache
